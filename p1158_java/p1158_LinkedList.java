@@ -1,8 +1,5 @@
 import java.util.*;
 
-
-
-
 class ListNode{
     String data;
     ListNode next;
