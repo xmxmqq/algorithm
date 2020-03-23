@@ -10,38 +10,40 @@ class Main {
      
         
         String str = br.readLine();
-        int laser=0;
+        int[] laser = new int[50000];
         int stick=0;
         int set=0;
         int result=0;
 
 
-        for(int i = 1; i < str.length() ; i++){
+        for(int i = 1; i < str.length() ; i++){ 
             
             if(str.charAt(i) == '('){ // ( 일때
-                if(str.charAt(i-1) == '('){
+                if(str.charAt(i-1) == '('){ // ((
                     stick++;
                 }
                 set++;
             }
             else{ // ) 일때
 
-                if(str.charAt(i-1) == '('){
-                    laser++;
+                if(str.charAt(i-1) == '('){ // ()
+                    for(int j = 0 ; j < stick ; j++)
+                        laser[j]++;
+                }
+                else{ // ))
+                    result += (laser[stick-1]+1);
+                    laser[stick-1] = 0;
+                    stick--;
+
                 }
                 set--;
             }
 
-            if(set == 0){
-                
-                System.out.println(laser);
-                System.out.println(stick);
-                laser = 0;
-                stick = 0;
-            }
 
 
         }
+        
+        System.out.println(result);
 
     }
 }
