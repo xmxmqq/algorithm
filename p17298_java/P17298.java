@@ -19,10 +19,14 @@ class Main {
         N = Integer.parseInt(br.readLine());
 
         
-        StringTokenizer tk = new StringTokenizer(br.readLine());
+        br.readLine();
 
+        int s[] = tk
+      
 
-        for(int i = 0 ; i < N ; i++){ // 스텍에 값 저장
+        for(int i = 0 ; i < N ; i++){//수열의 길이만큼 반복한다
+            
+            int target = A.pop();// 스택에서 수열을 꺼냄
             
             A.push(Integer.parseInt(tk.nextToken()));
 
