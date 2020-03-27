@@ -49,7 +49,7 @@ class Main {
 
             result.insert(0," "+EOF);
             B.push(target);
-
+     
 
         }
         
