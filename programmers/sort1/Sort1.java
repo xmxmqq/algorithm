@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 class Sort1 {
+    
     public static void main(String args[]){
 
         int[] array = {1, 5, 2, 6, 3, 7, 4};
@@ -12,6 +13,7 @@ class Sort1 {
         }
         
     }
+
     public static int[] getSliceOfArray(int[] arr, int start, int end) 
     { 
         
@@ -26,6 +28,7 @@ class Sort1 {
         // return the slice 
         return slice; 
     } 
+
     static public int[] solution(int[] array, int[][] commands) {
         ArrayList<Integer> answerList = new ArrayList<Integer>();
         
