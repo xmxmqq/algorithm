@@ -14,7 +14,7 @@ class Main {
         String str = br.readLine();
        
         List<String> list = new ArrayList<String>();
-        Long[] jub = new Long[str.length()];
+        Long[] jub = new Long[str.length()];    
         for(int i = 0 ; i < str.length() ; i++){
 
             // 접미사 문자열 나누기
