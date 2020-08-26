@@ -33,9 +33,10 @@ class Main{
             int sum = 0;
             for(int i = 0 ; i < k ; i++){
                 sum += numberArray[i];
-                // System.out.print(numberArray[i] + " ");
+                 System.out.print(numberArray[i] + " ");
                 
             }
+            System.out.println();
             if(sum == 100){
                 for(int i = 0; i < 7 ; i++){
                     answer[i] = numberArray[i]; 
