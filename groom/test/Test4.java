@@ -18,18 +18,18 @@ class Main4{
 
     answer += Integer.parseInt(diamondStr[0][0]) + Integer.parseInt(diamondStr[(N * 2) - 2][0]);
     
-    for(int i = 1 ; i < diamondStr.length - 2 ; i++) {
-      for(int j = 0 ; j < )
-    }
+    // for(int i = 1 ; i < diamondStr.length - 2 ; i++) {
+    //   for(int j = 0 ; j < )
+    // }
 
 
 
-    for(int i = 0 ; i < diamondStr.length ; i++) {
-      for (String s : diamondStr[i]) {
-        System.out.print(" " + s + " ");
-      }
-      System.out.println();
-    }
+    // for(int i = 0 ; i < diamondStr.length ; i++) {
+    //   for (String s : diamondStr[i]) {
+    //     System.out.print(" " + s + " ");
+    //   }
+    //   System.out.println();
+    // }
   }
 
 

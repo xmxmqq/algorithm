@@ -1,8 +1,8 @@
-import java.io.*;
 import java.util.*;
-import java.lang.*;
+
 
 class Main1 {
+	
 	public static final Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) throws Exception {
 		int n = scanner.nextInt();
@@ -11,10 +11,7 @@ class Main1 {
 		{
 			layers[i] = scanner.nextInt();
 		}
-		
-    
-    
-		
+
 		int answer = 0;
 		
 		
