@@ -27,6 +27,7 @@ class Main5 {
     visit[older[0]] = 1;
 
     while (!q.isEmpty()) {
+      // 현 위치
       int temp = q.poll();
 
       for (int i = 0; i < 3; i++) {
@@ -45,6 +46,7 @@ class Main5 {
           return;
         }
 
+        // 배열을 벗어나지 않고, 처음 방문한 곳인지
         if (next >= 0 && next < visit.length && visit[next] == 0) {
           q.add(next);
           visit[next] = visit[temp] + 1;

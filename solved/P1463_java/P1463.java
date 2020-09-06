@@ -11,19 +11,24 @@ class Main{
     // 1 <= N <= 10^6
     int N = Integer.parseInt(br.readLine());
     int[] answer = new int[1000001];
+
+    if(N == 1) {
+      System.out.println("0");
+      return;
+    }
     
     Queue<Integer> q = new LinkedList<>();
     q.add(N);
     while(!q.isEmpty()) {
 
         int temp = q.poll();
-
+        // System.out.println("temp : " + temp);
         for (int i = 0; i < 3; i++) {
             int next;
     
-            if (i == 0 && temp % 3 != 0) {
+            if (i == 0 && (temp % 3) == 0) {
               next = temp / 3;
-            } else if (i == 1 && temp % 2 != 0) {
+            } else if (i == 1 && (temp % 2) == 0) {
               next = temp / 2;
             } else if (i == 2){
               next = temp - 1;
@@ -31,7 +36,10 @@ class Main{
                 continue;
             }
 
+            // System.out.println("next : " + next);
+
             if(next == 1) {
+                // System.out.println("temp : " + temp);
                 System.out.println(answer[temp] + 1);
                 return;
             }
