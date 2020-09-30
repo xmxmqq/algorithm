@@ -5,9 +5,13 @@ import java.io.InputStreamReader;
 class Main{
   public static void main(String args[])throws NumberFormatException, IOException {
     BufferedReader br = new BufferedReader( new InputStreamReader( System.in ) );
-    StringBuilder result = new StringBuilder();
-    int n = Integer.parseInt(br.readLine());
     
+    int n = Integer.parseInt(br.readLine());
+
+    while(true) {
+      
+    }
+   
   }
 
 }
