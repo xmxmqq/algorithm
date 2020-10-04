@@ -23,7 +23,7 @@ class Main{
     }
     
     
-    int[] F = new int[max];
+    long[] F = new long[100000];
 
     HashSet<String> b3 = new HashSet<>();
     HashSet<String> b2 = new HashSet<>();
@@ -60,8 +60,8 @@ class Main{
     // }
 
     for(int i = 5 ; i < max ; i++) {
-        F[i] = (F[i - 1] - F[i - 2] + (2 * F[i - 3]) - F[i - 4] + (2 * F[i - 5])) % 1000000009;
-    }
+        F[i] = (F[i - 1] - F[i - 2] + (2 * F[i - 3])  - F[i - 4] + (2 * F[i - 5])) % 1000000009;
+    } 
 
     for(int i : n) {
         System.out.println(F[i - 1]);
