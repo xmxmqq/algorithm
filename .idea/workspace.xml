@@ -1,65 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6665a612-cf5e-44bd-a2f6-3af21fc3c5db" name="Default Changelist" comment="" />
+    <list default="true" id="4cc593e7-a39c-487e-99b7-fce256e02712" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1212_java/P1212.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1212_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1212_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P15990_java/P15990.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P15990_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P15990_java/solved.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/hamburger/Ham.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/hamburger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/test1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/test2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/test3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/test4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groom/test/test5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/bp1/Bp1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/bp2/Bp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/sort1/Sort1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P10799_java/P10799.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P10799_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P10820_java/P10820.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P10820_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11052_java/P11052.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11052_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11052_java/solved.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1107_java/P1107.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1107_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1107_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11656_java/P11656.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11656_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11656_java/solved.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11726_java/P11726.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11726_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11726_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11727_java/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11727_java/P11727.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11727_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P11727_java/t2n2122.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P14500_java/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P14500_java/P14500.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P14500_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P14500_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1463_java/P1463.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1463_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1463_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1476_java/P1476.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1476_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1476_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P17413_java/P17413.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P17413_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1748_java/P1748.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1748_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1748_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1874_java/P1874.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P1874_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P2309_java/P2309.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P2309_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P2309_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/P9095_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/P9095.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/P9095_java/solve.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1009_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1009_java/p1009.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10828/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10828/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10828/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10828/p10828.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10828/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10845_java/P10845.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p10845_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1158_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1158_java/p1158_LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1158_java/p1158_list.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1406_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1406_java/linkedlist/P1406_LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1406_java/stack/P1406_stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p1406_java/stack/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p3085_java/P3085.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p3085_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p3085_java/SOLVE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9012/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9012/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9012/p9012.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9093/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9093/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9093/p9093.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved/p9093/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/stack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bpTest/BpTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
-  <component name="ProjectId" id="1gcSk0GP1jJmguozw0OXcwiKsuS" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="algorithm" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1mVGkMh2yFIFV6R9grhiruJWWtc" />
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yido/sentence-splitter" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6665a612-cf5e-44bd-a2f6-3af21fc3c5db" name="Default Changelist" comment="" />
-      <created>1598412526886</created>
+      <changelist id="4cc593e7-a39c-487e-99b7-fce256e02712" name="Default Changelist" comment="" />
+      <created>1609571488732</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598412526886</updated>
-      <workItem from="1598412529586" duration="32000" />
-      <workItem from="1601443237079" duration="1090000" />
-      <workItem from="1601613423426" duration="41000" />
+      <updated>1609571488732</updated>
+      <workItem from="1609571490780" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="591" y="197" width="800" height="719" key="#Plugins" timestamp="1601443955653">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="591" y="197" width="800" height="719" key="#Plugins/72.27.1848.1053@72.27.1848.1053" timestamp="1601443955653" />
-    <state x="1022" y="233" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601613462330">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598412559729" />
-    <state x="1022" y="233" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1601613462330" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1601443932346">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1601443932346" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1601443938153">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1601443938153" />
   </component>
 </project>
